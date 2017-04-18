@@ -1,0 +1,20 @@
+class rugbyteam:
+	def __init__(self,Name, Height, Weight, Age, Skills, Position):
+		self.Name=Name
+		self.Height=Height
+		self.Weight=Weight
+		self.Age=Age
+		self.Skills=Skills
+		self.Position=Position
+	def allinfo(self):
+		return self.Name, self.Height, self.Weight, self.Age, self.Skills,self.Position
+
+player_1= rugbyteam("Nash", "6'2", "240 LBS", "23", "Mad Skills", "Forward")
+player_2= rugbyteam("Luka", "5'7", "187 LBS", "23", "Scrum Lion", "Front Row")
+player_3= rugbyteam("Saud", "6'0", "220 LBS", "23", "Playmaker", "Forward Second Row")
+
+
+print player_1.allinfo()
+print player_2.allinfo()
+print player_3.allinfo()
+		
